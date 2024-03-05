@@ -69,6 +69,7 @@ The optional files are:
 | files/random_pics | A random picture attached in the discord message|
 
 Each line inside the `random_`-Files represents a new entry and can be freely customized.
+
 For example `random_titles`:
 ``` 
 🎉 Incoming Birthday! Get Ready to Celebrate! 🎂
