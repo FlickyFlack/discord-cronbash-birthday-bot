@@ -38,13 +38,14 @@ NOTIFY_URL='YourWebHookHere'
 6.  Select  **Save**.
 
 ## Date File
-The `date-file` is located in the `files`-directory and has to be supplied in the following format (punctuation is important):
+The `date-file` is located in the `files`-directory and has to be supplied in the following format:
 | Date | Display Name | Discord ID |
 |:---:|:---:|:---:|
 | 01.01 | 'John' | <@123456...> |
 | 31.06 | 'Daniel' | <@123456...> |
 | 01.12 | 'Mary & Jane' | <@1234...>&<@5678...> |
 
+Make sure the Discord ID is enclosed by the `<@...>`Symbols, otherwise the tagging might not work.
 Examples are also provided in the date-file.
 For multiple entries on the same day, either use a new line with the same date or use the formatting shown above.
 To edit the files, just use the file editor of your choice (Vim, Nano, Vi, etc.)
@@ -65,7 +66,8 @@ The optional files are:
 |---|:---|
 | files/random_lines | A line chosen at random that accompanies the birthday wishes |
 | files/random_titles | A random title of the birthday announcement|
-| files/random_pics | A random picture attached in the discord message
+| files/random_pics | A random picture attached in the discord message|
+
 Each line inside the `random_`-Files represents a new entry and can be freely customized.
 For example `random_titles`:
 ``` 
