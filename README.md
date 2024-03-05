@@ -1,6 +1,6 @@
 # Discord CronBash Birthday Bot
 
-This "Bot" is technicall not a Bot in its technical sense, but rather a super lightweight script executed at midnight that checks if its the birthday of a user that has been previously supplied by the admin of the Linux Machine. It does not need any additional tools or packages except curl and jq, which is provided by every regular install.
+This "Bot" is technically not a Bot in its technical sense, but rather a super lightweight script executed at midnight that checks if its the birthday of a user that has been previously supplied by the admin of the Linux Machine. It does not need any additional tools or packages except curl and jq, which is provided by every regular install.
 
 The script checks at 00:00 if its someones birthday and sends a discord notification pinging everyone in the channel. At midnight, it automatically deletes the message it has posted.
 
