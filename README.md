@@ -43,7 +43,7 @@ The `date-file` is located in the `files`-directory and has to be supplied in th
 |:---:|:---:|:---:|
 | 01.01 | 'John' | <@123456...> |
 | 31.06 | 'Daniel' | <@123456...> |
-| 01.12 | 'Mary & Jane' | <@1234...>&<@5678...>
+| 01.12 | 'Mary & Jane' | <@1234...>&<@5678...> |
 Examples are also provided in the date-file.
 For multiple entries on the same day, either use a new line with the same date or use the formatting shown above.
 To edit the files, just use the file editor of your choice (Vim, Nano, Vi, etc.)
