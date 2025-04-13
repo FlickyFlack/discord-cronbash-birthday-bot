@@ -8,7 +8,7 @@ RANDOM_PIC_FILE="files/random_pics"
 RANDOM_TITLE_FILE="files/random_titles"
 BOT_NAME='Birthday Bot'
 AVATAR_URL='https://image.emojipng.com/852/6323852.jpg'
-NOTIFY_URL='https://discord.com/api/webhooks/1209490783183306792/I1B4PKdB_oyk6pb5EGkytz2HSv1_pLVd1mV_-vg0Ncezt406np5xjTDq6oNZgT-2mQ3-?wait=true'
+NOTIFY_URL='https://discord.com/api/webhooks/1209490783183306792/I1B4PKdB_oyk6pb5EGkytz2HSv1_pLVd1mV_-vg0Ncezt406np5xjTDq6oNZgT-2mQ3-?wait=true' #This Webhook is no longer valid, I forgot to remove it here lmao
 TODAY=$(date +"%d.%m")
 SIX_DAYS_BEFORE=$(date -d "+6 day" +"%d.%m")
 FIVE_DAYS_BEFORE=$(date -d "+5 day" +"%d.%m")
