@@ -1,0 +1,27 @@
+{
+    "name": "birthday",
+    "description": "Get or edit permissions for a user or a role",
+    "options": [
+        {
+            "name": "user",
+            "description": "Get or edit permissions for a user",
+            "type": 2,
+            "options": [
+                {
+                    "name": "view",
+                    "description": "Get permissions for a user",
+                    "type": 6
+                },
+                {
+                    "name": "set",
+                    "description": "Edit permissions for a user",
+                    "type": 6
+                }
+            ]
+        },
+        {   "name":"all",
+            "description": "Get all Birthdays",
+            "type": 6
+        }
+    ]
+}
